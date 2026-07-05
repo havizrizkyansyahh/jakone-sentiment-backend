@@ -11,3 +11,4 @@ nltk
 passlib[bcrypt]
 PyJWT
 python-dotenv
+bcrypt==3.2.2

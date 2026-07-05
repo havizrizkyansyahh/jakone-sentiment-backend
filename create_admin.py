@@ -1,6 +1,10 @@
 import sys
 import getpass
 from sqlalchemy.orm import Session
+
+from dotenv import load_dotenv
+load_dotenv()
+
 from database import SessionLocal, engine
 from models import Admin, Base
 from passlib.context import CryptContext

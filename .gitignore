@@ -1,0 +1,18 @@
+# Rahasia & Kredensial (HARAM MASUK GITHUB!)
+.env
+.env.local
+.env.*.local
+
+# File Sistem macOS
+.DS_Store
+
+# Cache & Kompilasi Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Virtual Python (jika ada)
+venv/
+.venv/
+env/

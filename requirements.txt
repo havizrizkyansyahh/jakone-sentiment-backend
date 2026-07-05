@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+scikit-learn
+pandas
+psycopg2-binary
+joblib
+SQLAlchemy
+python-multipart
+Sastrawi
+nltk
+passlib[bcrypt]
+PyJWT
+python-dotenv

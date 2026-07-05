@@ -9,6 +9,11 @@ from models import Base
 from auth import router as auth_router, get_current_admin
 from api import router as api_router
 from fastapi import Depends
+import nltk
+
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 
 # Setup basic logging
 logging.basicConfig(level=logging.INFO)
